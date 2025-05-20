@@ -1,0 +1,25 @@
+nav ul {
+    text-decoration: none;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+img {
+    width: 300px;
+    height: 250px;
+}
+b {
+    color: rgb(32, 192, 165);
+}
+div {
+    border-style: solid;
+    border-radius: 5px;
+    border-color:  rgb(32, 192, 165);
+    width: 300px;
+    
+}
+p {
+   margin-left: 20px;
+
+}
