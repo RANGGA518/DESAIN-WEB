@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>UTS DESAIN WEB</title>
+	</head>
+	<body>
+		<header>
+			<h2>TABEL</h2>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#">Beranda</a></li>
+				<li><a href="#">Tentang</a></li>
+				<li><a href="#">Kontak</a></li>
+			</ul>
+		</nav>
+		<table border="1" cellspacing="0" cellpadding="10">
+			<tr>
+				<th>Nama Barang</th>
+				<th>Jumlah Barang</th>
+				<th>Harga Barang</th>
+				<th>Stok Barang</th>
+			</tr>
+			<tr>
+				<td>Baju</td>
+				<td>100</td>
+				<td>150.000</td>
+				<td>7 pcs</td>
+			</tr>
+			<tr>
+				<td>Celana</td>
+				<td>155</td>
+				<td>2000.000</td>
+				<td>10 pcs</td>
+			</tr>
+			<tr>
+				<td>Topi</td>
+				<td>80</td>
+				<td>150.000</td>
+				<td>7 pcs</td>
+			</tr>
+			<tr>
+				<td>Kemeja</td>
+				<td>100</td>
+				<td>150.000</td>
+				<td>10 pcs</td>
+			</tr>
+			<tr>
+				<td>Baju</td>
+				<td>100</td>
+				<td>150.000</td>
+				<td>7 pcs</td>
+			</tr>
+		</table>
+		<hr>
+		<form>
+			<label for="name">Masukkan Nama :</label><br>
+			<input type="text" id="name" name="name">
+			<br>
+			<br>
+			<label for="password">Masukkan Password :</label><br>
+			<input type="password" id="password" name="password">
+			<br>
+			<label for="email">Masukkan Email :</label><br>
+			<input type="email" id="email" name="email">
+			<br>
+			<br>
+			<label for="agama">Agama :</label> 
+			<select>
+				<option name="agama" value="agama">Islam</option>
+				<option name="agama" value="agama">Kristen</option>
+				<option name="agama" value="agama">Budha</option>
+				<option name="agama" value="agama">Hindu</option>
+			</select>
+			<br>
+			<br>
+			<label for="hobi">Pilih Hobi :<br>
+				<input type="checkbox" name="hobi" value="bola">Sepak Bola<br>
+				<input type="checkbox" name="hobi" value="renang">Renang<br>
+				<input type="checkbox" name="hobi" value="basket">Basket<br>
+				<input type="checkbox" name="hobi" value="bl">Billiard<br>
+			</label>
+			<label for="gender">Jenis Kelamin :
+				<input type="radio" id="gender"name="gender">Laki-Laki
+			</label>
+			<label for="gender">
+				<input type="radio" id="gender" name="gender">Perempuan
+			</label>
+			<br>
+			<br>
+			<label for="alamat">Ketik Alamat :</label><br>
+			<textarea type="textarea" name="alamat" rows="10" cols="30"></textarea>
+			<br>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+		</form>
+	</body>
+</html>
